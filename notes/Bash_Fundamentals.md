@@ -76,3 +76,5 @@
     * Basculer en clavier US : `setxkbmap us`
 
 * **Vérification :** Tester les caractères `; : / \ | ' " $ { } [ ] ( )` dans le terminal. S'ils s'affichent immédiatement sans attendre d'autre touche (touches mortes), la configuration est correcte.
+
+* Codespace url : https://fantastic-space-giggle-xp66q9ppj7jc67g9.github.dev/
