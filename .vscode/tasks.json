@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build database_eldave",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"/Users/eldavedibala/Documents/Engineer/SDET/freecodecamp_relational_database_certification/database_eldave/database_eldave.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the database_eldave SQL project"
+		},
+		{
+			"label": "sqlproj: Build prince_database",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"/Users/eldavedibala/Documents/Engineer/SDET/freecodecamp_relational_database_certification/prince_database/prince_database.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the prince_database SQL project"
+		}
+	]
+}
